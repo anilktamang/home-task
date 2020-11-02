@@ -8,11 +8,11 @@ Install [Bash Automated Testing System (BATS)](https://github.com/sstephenson/ba
 **Run script:** 
 1. Clone the repository from github 
 ```bash
-$ git clone https://github.com/anilktamang/network-monitoring-engineer.git
+$ git clone https://github.com/anilktamang/home-task.git
 ```
 2. Change Directory
 ```bash
-$ cd network-monitoring-engineer/Task1
+$ cd home-task/Task1
 ```
 3. Make it executable and run
 ```bash
