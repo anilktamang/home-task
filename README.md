@@ -12,7 +12,7 @@ $ git clone https://github.com/anilktamang/home-task.git
 ```
 2. Change Directory
 ```bash
-$ cd home-task/Task1
+$ cd home-task/task1
 ```
 3. Make it executable and run
 ```bash
