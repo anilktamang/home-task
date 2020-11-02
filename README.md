@@ -4,6 +4,12 @@
 Install [Bash Automated Testing System (BATS)](https://github.com/sstephenson/bats) to run the test for the script.
 * _Ubuntu:_ ```sudo apt-get install bats```
 * _Mac:_ ```brew install bats```
+* _CentOS/RHEL:_ Install BATS from from source
+```bash
+$ git clone https://github.com/sstephenson/bats.git
+$ cd bats
+$ ./install.sh /usr/local
+```
 
 **Run script:** 
 1. Clone the repository from github 
