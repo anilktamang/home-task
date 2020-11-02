@@ -62,5 +62,4 @@ $ bats test_random.bats
 The script Writes the numbers from 1 - 10 in random order. Each number appear only once. This bash script is tested with the BATS testing framework. 
 ## Known limitation / bugs
 
-
-
+----
