@@ -28,7 +28,7 @@ Make it executable and run
 $ chmod +x test_random.bats
 ```
 ```bash
-$ ./test_random.bats
+$ bats test_random.bats
 ```
 
 ## Usage
