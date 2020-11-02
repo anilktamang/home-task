@@ -1,17 +1,18 @@
 #!/bin/bash
 
+# n number
 NUMBERS=10
 
-# Exit on error.
+# Exit on error
 set -e
 
-# Function to display the usage info and exit.
+# Function to display the usage info and exit
 usage() {
 	echo "Usuage: ${0} [-n NUMBERS] [-vh]" >&2
 	echo 'Generates n random numbers.' >&2
 	echo ' -n NUMBER   Allows user to provide the numbers of random number.' >&2
 	echo ' -v          Increase verbosity.'  >&2
-  echo ' -h          Shows this help message.'  >&2
+  	echo ' -h          Shows this help message.'  >&2
 	exit 1
 }
 
@@ -23,7 +24,7 @@ log(){
 	fi
 }
 
-# Parse the options.
+# Parse the options
 while getopts n:vh OPTION
 do
 	case ${OPTION} in
@@ -34,7 +35,7 @@ do
             VERBOSE='true'
             log 'Verbose mode on.'
             ;;
-   h)
+   	h)
             usage
             ;;
 	?)
