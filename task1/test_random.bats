@@ -1,4 +1,5 @@
 #!/usr/bin/env bats
+#Run test using Bash Automated Testing System (BATS) testing framework for Bash.
 
 @test "By default 10 random numbers will be generated." {
   result="$(./random.sh)"
