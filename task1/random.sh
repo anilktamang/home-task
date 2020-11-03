@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Generates the distinct n random number
 # n number
 NUMBERS=10
 
