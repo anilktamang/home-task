@@ -1,6 +1,6 @@
 # Task 1
 ## Build Instruction
-For MAC, make sure ```Coreutils``` is installed ```brew install coreutils``` 
+For MAC, make sure ```Coreutils``` is installed ```brew install coreutils``` (```shuf``` command will work after)
 
 Install [Bash Automated Testing System (BATS)](https://github.com/sstephenson/bats) to run the test for the script.
 * _Ubuntu:_ ```sudo apt-get install bats```
