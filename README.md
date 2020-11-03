@@ -1,6 +1,6 @@
 # Task 1
 ## Build Instruction
-Install ```Coreutils``` for _Mac_: ```brew install coreutils``` 
+For MAC, make sure ```Coreutils``` is installed ```brew install coreutils``` 
 
 Install [Bash Automated Testing System (BATS)](https://github.com/sstephenson/bats) to run the test for the script.
 * _Ubuntu:_ ```sudo apt-get install bats```
@@ -21,7 +21,7 @@ $ git clone https://github.com/anilktamang/home-task.git
 ```bash
 $ cd home-task/task1
 ```
-3. Make it executable and run
+3. Make script executable and run
 ```bash
 $ chmod +x random.sh
 ```
@@ -30,7 +30,7 @@ $ ./random.sh
 ```
 **Run test for script:** 
 
-To run the tests, invoke the ```bats``` interpreter with a path to a test file
+To run the tests, invoke the ```bats``` interpreter with a path to a ```.bats``` test file
 ```bash
 $ bats test_random.bats
 ```
@@ -43,7 +43,7 @@ $ ./random.sh -n NUMBER -vh
 **Execute script**
 ```bash
 $ ./random.sh
-8 2 7 9 10 4 3 1 5 6
+8 10 7 9 2 4 6 1 5 3
 ```
 **Execute test**
 ```bash
@@ -66,7 +66,6 @@ $ bats test_random.bats
 14 tests, 0 failures
 ```
 ## Description
-The script Writes the numbers from 1 - 10 in random order. Each number appear only once. This bash script is tested with the BATS testing framework. 
+The script Writes a random permutation of the input lines to standard output. This bash script is tested with the BATS testing framework. BATS provides a simple way to verify that the UNIX programs you write behave as expected.
 ## Known limitation / bugs
-
-----
+None
